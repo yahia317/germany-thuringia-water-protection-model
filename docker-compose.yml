@@ -1,0 +1,29 @@
+
+services:
+  postgis:
+    image: postgis/postgis:17-3.5
+    container_name: water-protection-model
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-iris}
+      POSTGRES_USER: ${POSTGRES_USER:-iris}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in the .env file}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgis_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U \"$${POSTGRES_USER}\" -d \"$${POSTGRES_DB}\""]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build: .
+    depends_on:
+      postgis:
+        condition: service_healthy
+    environment:
+      IRIS_DATABASE_URL: "postgresql://${POSTGRES_USER:-iris}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in the .env file}@postgis:5432/${POSTGRES_DB:-iris}"
+      IRIS_TEST_DATABASE_URL: "postgresql://${POSTGRES_USER:-iris}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@postgis:5432/iris_test"
+volumes:
+  postgis_data:

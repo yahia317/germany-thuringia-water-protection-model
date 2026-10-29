@@ -1,0 +1,24 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded WFS data
+data/*.xml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

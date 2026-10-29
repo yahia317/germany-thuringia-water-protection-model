@@ -1,0 +1,7 @@
+geopandas==1.1.1
+pandas==2.3.3
+Shapely==2.1.2
+requests==2.32.5
+OWSLib==0.34.0
+psycopg[binary]==3.2.12
+pytest==9.2.0

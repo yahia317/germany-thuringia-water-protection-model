@@ -1,0 +1,243 @@
+{
+  "status": "success",
+  "retrieved_at_utc": "2026-10-29T07:29:14.047454+00:00",
+  "authority": "Thuringian State Office for the Environment, Mining and Nature Conservation (TLUBN)",
+  "source_url": "http://www.geoproxy.geoportal-th.de/geoproxy/services/wsg_hqsg_wfs",
+  "layer": "tmlnu:WASSER_UND_HEILQUELLENSCHUTZGEBIETE",
+  "state_code": "TH",
+  "source_crs": "EPSG:25832",
+  "target_crs": "EPSG:25832",
+  "licence": "CC BY 4.0",
+  "attribution": "© GDI-Th",
+  "page_size": 100,
+  "expected_features": 3090,
+  "downloaded_features": 3090,
+  "pages": [
+    {
+      "start_index": 0,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_0000.xml",
+      "bytes": 319238
+    },
+    {
+      "start_index": 100,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_0100.xml",
+      "bytes": 318114
+    },
+    {
+      "start_index": 200,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_0200.xml",
+      "bytes": 350982
+    },
+    {
+      "start_index": 300,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_0300.xml",
+      "bytes": 246945
+    },
+    {
+      "start_index": 400,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_0400.xml",
+      "bytes": 251924
+    },
+    {
+      "start_index": 500,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_0500.xml",
+      "bytes": 1793150
+    },
+    {
+      "start_index": 600,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_0600.xml",
+      "bytes": 1306620
+    },
+    {
+      "start_index": 700,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_0700.xml",
+      "bytes": 295778
+    },
+    {
+      "start_index": 800,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_0800.xml",
+      "bytes": 302708
+    },
+    {
+      "start_index": 900,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_0900.xml",
+      "bytes": 402269
+    },
+    {
+      "start_index": 1000,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_1000.xml",
+      "bytes": 329539
+    },
+    {
+      "start_index": 1100,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_1100.xml",
+      "bytes": 414104
+    },
+    {
+      "start_index": 1200,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_1200.xml",
+      "bytes": 514894
+    },
+    {
+      "start_index": 1300,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_1300.xml",
+      "bytes": 394391
+    },
+    {
+      "start_index": 1400,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_1400.xml",
+      "bytes": 321671
+    },
+    {
+      "start_index": 1500,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_1500.xml",
+      "bytes": 287932
+    },
+    {
+      "start_index": 1600,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_1600.xml",
+      "bytes": 255762
+    },
+    {
+      "start_index": 1700,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_1700.xml",
+      "bytes": 339545
+    },
+    {
+      "start_index": 1800,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_1800.xml",
+      "bytes": 274924
+    },
+    {
+      "start_index": 1900,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_1900.xml",
+      "bytes": 268812
+    },
+    {
+      "start_index": 2000,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_2000.xml",
+      "bytes": 256530
+    },
+    {
+      "start_index": 2100,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_2100.xml",
+      "bytes": 230996
+    },
+    {
+      "start_index": 2200,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_2200.xml",
+      "bytes": 344223
+    },
+    {
+      "start_index": 2300,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_2300.xml",
+      "bytes": 366118
+    },
+    {
+      "start_index": 2400,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_2400.xml",
+      "bytes": 222206
+    },
+    {
+      "start_index": 2500,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_2500.xml",
+      "bytes": 271558
+    },
+    {
+      "start_index": 2600,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_2600.xml",
+      "bytes": 220586
+    },
+    {
+      "start_index": 2700,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_2700.xml",
+      "bytes": 223760
+    },
+    {
+      "start_index": 2800,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_2800.xml",
+      "bytes": 276398
+    },
+    {
+      "start_index": 2900,
+      "feature_count": 100,
+      "http_status": 200,
+      "file": "features_2900.xml",
+      "bytes": 314004
+    },
+    {
+      "start_index": 3000,
+      "feature_count": 90,
+      "http_status": 200,
+      "file": "features_3000.xml",
+      "bytes": 303882
+    }
+  ],
+  "empty_response": false,
+  "errors": [],
+  "coverage_limitations": [
+    "The source layer contains both WSG and HQSG features.",
+    "The current database load includes WSG features only; HQSG features are excluded.",
+    "Restriction categories and extraction rates are not published in the inspected WFS fields.",
+    "The source-reported Stand date is distinct from this retrieval timestamp."
+  ],
+  "completed_at_utc": "2026-10-29T07:29:38.276545+00:00"
+}
